@@ -11,7 +11,7 @@ A simple, single-user ToDo list app built with plain PHP, MySQL, and Tailwind CS
 
 ## Tech Stack
 
-- **Frontend:** PHP-rendered HTML, Tailwind CSS (precompiled `output.css`), vanilla JavaScript
+- **Frontend:** PHP-rendered HTML, Tailwind CSS (compiled locally from `input.css`), vanilla JavaScript
 - **Backend:** PHP (`mysqli`, prepared statements)
 - **Database:** MySQL / MariaDB
 
@@ -59,7 +59,7 @@ A simple, single-user ToDo list app built with plain PHP, MySQL, and Tailwind CS
 | `config.php` | Minimal `.env` loader; defines `DB_HOST`, `DB_USER`, `DB_PASS`, `DB_NAME` |
 | `script.js` | Modal open/close logic and client-side field-length validation |
 | `bdtask.sql` | Database schema (creates `bdtask` database + `tasks` table) |
-| `input.css` / `output.css` | Tailwind source and compiled stylesheet |
+| `input.css` | Tailwind CSS source file (`output.css` is generated locally) |
 | `.env` | Local DB credentials (not committed) |
 
 ## Notes
